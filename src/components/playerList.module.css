@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.delete {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #f90808;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+}
+
+.edit {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #5f5a5a;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.search {
+  float: right;
+  padding: 6px;
+  border: 1px solid black;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}

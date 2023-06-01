@@ -1,0 +1,25 @@
+.root {
+  height: auto;
+  width: 400px;
+  border: 1px solid red;
+  padding: 40px;
+}
+label {
+  display: flex;
+  gap: 20px;
+}
+label > span {
+  font-size: 20px;
+  width: 70px;
+}
+
+input {
+    width: 300px;
+    padding: 4px;
+}
+
+.button{
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
+}
